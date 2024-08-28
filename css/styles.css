@@ -10,11 +10,20 @@
 body {
   background-color: black;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 main {
   max-width: 23.5rem;
   background-color: #fafafa;
+  padding: 1.5rem;
+}
+.hero img {
+  max-width: 25rem;
+}
+.people-grid img {
+  max-width: 9rem;
+  max-height: 9rem;
+  border-radius: 0.5rem;
 }
