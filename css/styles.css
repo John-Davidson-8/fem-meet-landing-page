@@ -14,9 +14,10 @@ body {
   align-items: center;
 }
 main {
-  max-width: 23.4rem;
+  max-width: 27rem;
   background-color: #fafafa;
-  padding: 1.5rem;
+  /* padding: 2rem; */
+  margin: 4rem;
 }
 .hero img {
   max-width: 25rem;
@@ -43,7 +44,7 @@ h1 {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin: 0 2rem 1.5rem 2rem;
 }
 .cta-flex {
   display: flex;
@@ -51,7 +52,7 @@ h1 {
   align-items: center;
   margin-bottom: 9rem;
 }
-.cta-flex a {
+a {
   text-decoration: none;
   color: #fafafa;
   font-weight: 900;
@@ -66,7 +67,7 @@ h1 {
   background-color: #855fb1;
   margin-bottom: 4rem;
 }
-.number-one {
+.number-one-two {
   color: #87879d;
   font-weight: 900;
   border: 0.1rem solid #87879d;
@@ -74,8 +75,76 @@ h1 {
   padding: 1rem;
   margin-top: 0;
 }
+.number-one {
+  margin-bottom: 4rem;
+}
 .vertical-line {
   height: 6rem; /* Adjust height as needed */
   border-left: 1px solid rgba(0, 0, 0, 0.2); /* Faint line with color and opacity */
   margin: 0 auto; /* Center line horizontally */
+}
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.use-case {
+  color: #4d96a9;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 0.82rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  text-align: center;
+  color: #28283d;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem 2rem 2rem 2rem;
+}
+.meet-info {
+  font-size: 1rem;
+  text-align: center;
+  color: #87879d;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 2rem;
+}
+.number-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -3rem;
+}
+footer {
+  background-image: url(/assets-mobile/image-footer.jpg);
+}
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-footer h3 {
+  color: #fafafa;
+  text-align: center;
+  margin: 3rem 2rem;
+  font-size: 2rem;
+}
+.flex-footer p {
+  color: #fafafa;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.flex-footer a {
+  background-color: #855fb1;
+  margin-bottom: 4rem;
 }
