@@ -74,6 +74,7 @@ a {
   border-radius: 50%;
   padding: 1rem;
   margin-top: 0;
+  background-color: #fafafa;
 }
 .number-one {
   margin-bottom: 4rem;
@@ -127,8 +128,8 @@ footer {
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      /* start color (black with 50% opacity) */ rgba(0, 0, 0, 0.5)
+      rgba(77, 150, 169, 0.8),
+      /* start color (black with 50% opacity) */ rgba(77, 150, 169, 0.8)
         /* end color (black with 50% opacity) */
     ),
     url(/assets-mobile/image-footer.jpg);
