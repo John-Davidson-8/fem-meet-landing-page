@@ -171,8 +171,12 @@ footer a {
   }
   h1 {
     font-size: 3rem;
-    display: block;
     max-width: 26.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .meet-description {
+    max-width: 28rem;
     margin-right: auto;
     margin-left: auto;
   }
