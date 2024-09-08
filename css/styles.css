@@ -31,6 +31,16 @@ header img {
   display: block;
   margin: 3rem auto 4rem auto;
 }
+picture img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .responsive-image {
+  display: block;
+  margin: 0 auto;
+} */
 h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -155,5 +165,15 @@ footer a {
   background-color: #855fb1;
   margin-bottom: 4rem;
 }
-/* @media (min-width: 768px) {
-} */
+@media (min-width: 768px) {
+  main {
+    max-width: 900px;
+  }
+  h1 {
+    font-size: 3rem;
+    display: block;
+    max-width: 26.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
