@@ -60,7 +60,11 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 9rem;
+  margin-bottom: 4rem;
+}
+.cta-flex-anchors {
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -165,9 +169,9 @@ footer a {
   background-color: #855fb1;
   margin-bottom: 4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   main {
-    max-width: 900px;
+    max-width: 62rem;
   }
   h1 {
     font-size: 3rem;
@@ -179,5 +183,37 @@ footer a {
     max-width: 28rem;
     margin-right: auto;
     margin-left: auto;
+  }
+  .cta-flex-anchors {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 7.5rem;
+  }
+  .cta-question,
+  .cta-download {
+    margin: 0;
+  }
+  h2 {
+    font-size: 2.25rem;
+    max-width: 27rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .meet-info {
+    max-width: 31rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  footer {
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.8),
+        /* start color (black with 50% opacity) */ rgba(77, 150, 169, 0.8)
+          /* end color (black with 50% opacity) */
+      ),
+      url(/assets-tablet/image-footer.jpg);
+  }
+  footer p {
+    max-width: 31rem;
   }
 }
