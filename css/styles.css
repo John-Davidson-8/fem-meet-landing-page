@@ -16,7 +16,6 @@ body {
 main {
   max-width: 27rem;
   background-color: #fafafa;
-  /* padding: 2rem; */
   margin: 4rem;
 }
 .hero img {
@@ -215,5 +214,13 @@ footer a {
   }
   footer p {
     max-width: 31rem;
+  }
+}
+@media (min-width: 62rem) {
+  main {
+    max-width: 80rem;
+  }
+  h1 {
+    font-size: 4rem;
   }
 }
