@@ -18,6 +18,9 @@ main {
   background-color: #fafafa;
   margin: 4rem;
 }
+.mobile-tablet-hidden {
+  display: none;
+}
 .hero img {
   max-width: 25rem;
 }
@@ -36,10 +39,6 @@ picture img {
   margin-left: auto;
   margin-right: auto;
 }
-/* .responsive-image {
-  display: block;
-  margin: 0 auto;
-} */
 h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -220,7 +219,9 @@ footer a {
   main {
     max-width: 80rem;
   }
-  h1 {
-    font-size: 4rem;
+  .mobile-tablet-image,
+  .mobile-tablet-h1,
+  .mobile-tablet-p {
+    display: none;
   }
 }

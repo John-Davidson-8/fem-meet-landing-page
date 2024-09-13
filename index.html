@@ -18,29 +18,37 @@
       <header>
         <img src="./assets-logo-favicon/logo.svg" alt="meet logo" />
       </header>
-      <picture class="responsive-image">
-        <!-- <source
-          srcset="assets-desktop/image-hero-tablet.png"
-          media="(min-width: 300px)"
-        /> -->
-        <img
+      <picture class="responsive-image mobile-tablet-image">
+        <img class="mobile-tablet-image"
           src="assets-desktop/image-hero-tablet.png"
-          alt="meet porple avatars"
+          alt="meet people avatars"
         />
-        <!-- <source srcset -->
       </picture>
-      <h1>Group Chat for Everyone</h1>
-      <p class="meet-description">
+      <h1 class="mobile-tablet-h1">Group Chat for Everyone</h1>
+      <p class="meet-description mobile-tablet-p">
         Meet makes it easy to connect with others face-to-face virtually and
         collaborate across any device.
       </p>
+      <!-- desktop -->
+      <section class="mobile-tablet-hidden">
+          <picture class="responsive-image"></picture>
+          <img
+            src="assets-desktop/image-hero-tablet.png"
+            alt="meet people avatars"
+          />
+          </picture>
+          <h1>Group Chat for Everyone</h1>
+          <p class="meet-description">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+      </section>
+      <!-- end of desktop -->
       <section class="cta-flex">
         <div class="cta-flex-anchors">
           <a href="#" class="cta-download">Download v1.3</a>
           <a href="#" class="cta-question">What is it?</a>
         </div>
-        <!-- <a href="#" class="cta-download">Download v1.3</a>
-        <a href="#" class="cta-question">What is it?</a> -->
         <div class="vertical-line"></div>
         <p class="number-one-two number-one">01</p>
       </section>
