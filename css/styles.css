@@ -235,5 +235,9 @@ footer a {
     font-size: 4rem;
     max-width: 28rem;
     line-height: 4.4rem;
+    min-width: 28rem;
+  }
+  .image-grid-desktop-hidden {
+    display: none;
   }
 }
