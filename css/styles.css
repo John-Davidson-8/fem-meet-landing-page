@@ -224,4 +224,16 @@ footer a {
   .mobile-tablet-p {
     display: none;
   }
+  .mobile-tablet-hidden {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .desktop-hero-h-p {
+    margin: 0 7rem;
+  }
+  h1 {
+    font-size: 4rem;
+    max-width: 28rem;
+    line-height: 4.4rem;
+  }
 }
