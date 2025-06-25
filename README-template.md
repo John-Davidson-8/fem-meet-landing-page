@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://fem-meet-landing-page-final.netlify.app/)
+- Live Site URL: [Netlify](https://fem-meet-landing-page-final.netlify.app/)
 
 ## My process
 
@@ -79,14 +79,13 @@ One year away from coding! Here we go again thankfully.
 
 ### Useful resources
 
-- [Example resource 1](https://every-layout.dev/) - This is my next read and will help with CSS layouts.
-- [Example resource 2](https://css-tricks.com/) - Excellent reference for CSS. Always refer to this!
+- [Every Layout by Andy Bell](https://every-layout.dev/) - This is my next read and will help with CSS layouts.
+- [CSS Tricks](https://css-tricks.com/) - Excellent reference for CSS. Always refer to this!
 
 ## Author
 
-- Website - [Add your name here](https://www.upwork.com/freelancers/~018613765e268de80b?viewMode=1)
+- Website - [Find me on Up-work](https://www.upwork.com/freelancers/~018613765e268de80b?viewMode=1)
 - Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 
