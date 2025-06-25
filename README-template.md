@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./fem-meet-landing-page-desktop.png)
+![](./screenshots/fem-meet-landing-page-tablet-screenshot.png)
 
-![](./fem-meet-landing-page-tablet.png)
+![](./screenshots/fem-meet-landing-page-tablet-screenshot.png)
 
-![](./fem-meet-landing-page-mobile.png)
+![](./screenshots/fem-meet-landing-page-desktop-screenshot.png)
 
 ### Links
 
