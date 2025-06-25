@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/fem-meet-landing-page-tablet-screenshot.png)
+![](./screenshots/fem-meet-landing-page-mobile-screenshot.png)
 
 ![](./screenshots/fem-meet-landing-page-tablet-screenshot.png)
 
