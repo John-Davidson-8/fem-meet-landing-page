@@ -29,7 +29,7 @@ main {
 }
 header img {
   display: block;
-  margin: 3rem auto 4rem auto;
+  margin: 4rem auto 4rem auto;
 }
 picture img {
   max-width: 100%;
@@ -165,7 +165,7 @@ footer a {
   background-color: #855fb1;
   margin-bottom: 4rem;
 }
-@media (min-width: 48rem) {
+@media (min-width: 43rem) {
   main {
     max-width: 62rem;
   }
@@ -213,7 +213,7 @@ footer a {
     max-width: 31rem;
   }
 }
-@media (min-width: 62rem) {
+@media (min-width: 58rem) {
   main {
     max-width: 100rem;
   }
@@ -234,5 +234,24 @@ footer a {
     max-width: 28rem;
     line-height: 4.4rem;
     min-width: 28rem;
+  }
+  .people-grid > img {
+    min-width: 15rem;
+    min-height: 15rem;
+    border-radius: 0.5rem;
+  }
+  .use-case {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
+  .meet-info {
+    font-size: 1.25rem;
+  }
+  .flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
