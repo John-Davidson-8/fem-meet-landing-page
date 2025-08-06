@@ -69,7 +69,7 @@ I learned the display: none function which was very handy for hiding elements on
 ```css
   .mobile-tablet-image,
   .mobile-tablet-h1,
-  .mobile-tablet-p {
+  .mobile-tablet-p
     display: none;
 ```
 

@@ -8,15 +8,13 @@
     0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 body {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 main {
-  max-width: 27rem;
+  max-width: 100%;
   background-color: #fafafa;
-  margin: 4rem;
 }
 .mobile-tablet-hidden {
   display: none;
