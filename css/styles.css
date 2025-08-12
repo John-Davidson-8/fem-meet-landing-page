@@ -14,6 +14,7 @@ body {
 }
 main {
   max-width: 100%;
+  margin: 0 auto;
   background-color: #fafafa;
 }
 .mobile-tablet-hidden {
@@ -252,6 +253,8 @@ footer a {
   .flex-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+  }
+  .flex-footer > h3 {
+    font-size: 2.5rem;
   }
 }
