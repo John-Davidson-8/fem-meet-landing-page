@@ -1,4 +1,5 @@
 :root {
+  box-sizing: border-box;
   font-family: "Red Hat Display", system-ui;
   /* box shadow */
   --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -11,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 main {
   max-width: 100%;
@@ -168,7 +170,7 @@ footer a {
 }
 @media (min-width: 43rem) {
   main {
-    max-width: 62rem;
+    /* max-width: 62rem; */
   }
   h1 {
     font-size: 3rem;
@@ -214,9 +216,8 @@ footer a {
     max-width: 31rem;
   }
 }
-@media (min-width: 58rem) {
+/* @media (min-width: 58rem) {
   main {
-    max-width: 100rem;
   }
   .mobile-tablet-image,
   .mobile-tablet-h1,
@@ -253,8 +254,18 @@ footer a {
   .flex-footer {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
   }
   .flex-footer > h3 {
-    font-size: 1rem;
+    font-size: 2.5rem;
+    max-width: 6rem;
   }
-}
+} */
+/* @media (min-width: 43rem) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+  }
+} */
